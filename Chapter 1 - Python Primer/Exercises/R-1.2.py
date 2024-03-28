@@ -6,10 +6,7 @@ cannot use the multiplication, modulo, or division operators.
 
 
 def is_even(k):
-    while k > 0:
-        k -= 2
-
-    return bool(k + 1)
+    return (-1) ** k == 1
 
 
 if __name__ == '__main__':
